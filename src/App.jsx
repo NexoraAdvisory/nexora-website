@@ -1,14 +1,17 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Menu, X, Lightbulb, Settings, ClipboardCheck, Building2, Handshake, Bot, LineChart, PieChart, Laptop, ClipboardList, Headset, Warehouse, ArrowLeft, BarChart3, Smartphone, CheckCircle, Clock, FileText, DollarSign, BrainCircuit, TrendingUp, Puzzle, ShieldCheck, Link2, BellRing, Thermometer } from 'lucide-react';
+import { Menu, X, Lightbulb, Settings, ClipboardCheck, Building2, Handshake, Bot, LineChart, PieChart, Laptop, ClipboardList, Headset, UtensilsCrossed, Warehouse, ArrowLeft, Users, Pizza, Coffee, Salad, Soup, BarChart3, Package, Smartphone, CheckCircle, Clock, FileText, DollarSign, BrainCircuit, TrendingUp, CreditCard, Puzzle, ShieldCheck, Gift, Link2, BellRing, Thermometer } from 'lucide-react';
 import logoImage from './assets/logo.png'; 
 
 // Logo usage
 <img src={logoImage} alt="Nexora Logo" className="h-12" />
 
-// Remove unused Tech variables for now
-// const Tech1 = '...';
-// const Tech3 = '...';
-// const Tech5 = '...';
+const savvySlidersLogo = 'https://placehold.co/200x100/f3f4f6/9ca3af?text=Savvy+Sliders';
+const burgerFiLogo = 'https://placehold.co/200x100/f3f4f6/9ca3af?text=BurgerFi';
+
+const Tech1 = 'https://images.unsplash.com/photo-1634655610309-b4b1a2c9c8e8?q=80&w=2070&auto-format&fit=crop';
+const Tech3 = 'https://images.unsplash.com/photo-1581092921440-41f49635e06b?q=80&w=2070&auto-format&fit=crop';
+const Tech5 = 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto-format&fit=crop';
+// --- END ASSET PLACEHOLDERS ---
 
 
 // Main App Component
@@ -361,7 +364,7 @@ const SocialProofSection = () => (
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 <div className="bg-slate-50 p-6 rounded-lg shadow-md border border-slate-200 text-center">
-                    <img src="https://www.provisioneronline.com/ext/resources/2023/06/25/Savvy-Sliders-logo.png?1687719579" alt="Savvy Sliders Logo" className="h-16 mx-auto mb-4 object-contain" />
+                    <img src="https://play-lh.googleusercontent.com/yoB3_PGDvkNVvRRWYevVr73njuljvvZG6ZUA4WjMkW5hpgGll_gNwbuFIF6_PrQr9g" alt="Savvy Sliders Logo" className="h-16 mx-auto mb-4 object-contain" />
                     <h3 className="text-xl font-bold text-slate-700">Our Partnership</h3>
                     <p className="text-slate-600 mt-2">
                         For Savvy Sliders, we are developing a suite of powerful Power BI dashboards and KPIs. This provides their leadership with real-time visibility into sales trends, food costs, and labor efficiency, enabling data-informed strategic decisions.
@@ -596,8 +599,8 @@ const FeatureDetailSection = () => {
 const WhoWeHelpSection = () => {
     const types = [
         { title: 'QSR & Franchise Brands', img: 'https://www.savvysliders.com/wp-content/themes/savvysliders/images/own-savvy.jpg', description: "Standardize operations, manage royalties, and gain enterprise-level visibility across all your locations." },
-        { title: 'Fast Casual', img: 'https://d1pbny5bq445o3.cloudfront.net/get/wp-content/uploads/2023/08/11101201/fast-food-vs-fast-casual.png', description: "Balance speed with quality. Optimize inventory for fresh ingredients and schedule staff for peak efficiency." },
-        { title: 'Casual & Fine Dining', img: 'https://www.coastlinenservices.com/wp-content/uploads/2019/07/shutterstock_741884605.jpg', description: "Manage complex menus, control plate costs with precision, and analyze sales to engineer a more profitable menu." },
+        { title: 'Fast Casual', img: 'https://media.istockphoto.com/id/1198045232/photo/living-our-best-life.jpg?s=612x612&w=0&k=20&c=fB2ayf3UfLn-zqisNRxojhRRON72LPEHB3gLA0f4uaw=', description: "Balance speed with quality. Optimize inventory for fresh ingredients and schedule staff for peak efficiency." },
+        { title: 'Casual & Fine Dining', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREU-ucNDdY6LYMLG7MJkR40avSYWSRIK-m7A&s', description: "Manage complex menus, control plate costs with precision, and analyze sales to engineer a more profitable menu." },
         { title: 'Coffee Shops & Cafes', img: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1974&auto=format&fit=crop', description: "Track daily inventory on perishables like milk and pastries, manage staff schedules, and automate daily bookkeeping." }
     ];
     return (
@@ -873,7 +876,7 @@ const TechnologyPage = React.forwardRef((props, ref) => (
              <p className="max-w-3xl mx-auto text-center text-lg leading-relaxed mb-12 text-slate-600">We leverage a powerful suite of enterprise-grade technologies to drive transformation and deliver exceptional results for our clients.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                    <img src="https://keelsolution.com/wp-content/uploads/2019/10/5-SAP-S4-HANA-Data-Migration-Challenges-for-the-Oil-Gas-and-Energy-Industry.png"className="w-full h-48 object-cover" alt="SAP S/4HANA" /><div className="p-6"><h3 className="text-xl font-bold mb-2 text-slate-800">SAP S/4HANA Migration</h3><p className="text-slate-600">Seamlessly transition from legacy systems to SAP's native in-memory platform for enhanced efficiency and speed.</p></div>
+                    <img src="https://media.licdn.com/dms/image/v2/C5612AQHYUjOTQxXg1A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1571141095302?e=2147483647&v=beta&t=IiEf6Cd748uOZ2TwFmtRz5pC3yVjnfU5Ah_RY2jMW8w"className="w-full h-48 object-cover" alt="SAP S/4HANA" /><div className="p-6"><h3 className="text-xl font-bold mb-2 text-slate-800">SAP S/4HANA Migration</h3><p className="text-slate-600">Seamlessly transition from legacy systems to SAP's native in-memory platform for enhanced efficiency and speed.</p></div>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
                     <img src="https://i.ytimg.com/vi/9-53EMTmXkw/maxresdefault.jpg" className="w-full h-48 object-cover" alt="SAP Reporting" /><div className="p-6"><h3 className="text-xl font-bold mb-2 text-slate-800">SAP Group Reporting</h3><p className="text-slate-600">Streamline your financial consolidation and reporting processes with our expert implementation.</p></div>
@@ -885,7 +888,7 @@ const TechnologyPage = React.forwardRef((props, ref) => (
                     <img src="https://workday.wd5.myworkdayjobs.com/ja-JP/Workday_Early_Career/assets/logo" className="w-full h-48 object-contain p-4" alt="Workday" /><div className="p-6"><h3 className="text-xl font-bold mb-2 text-slate-800">Workday</h3><p className="text-slate-600">Transform your HR and finance operations with a single, unified cloud-based system.</p></div>
                 </div>
                  <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                    <img src="https://mms.businesswire.com/media/20231010822597/en/1120772/22/OneStream_BizWire_logo.jpg" className="w-full h-48 object-contain p-4" alt="OneStream" /><div className="p-6"><h3 className="text-xl font-bold mb-2 text-slate-800">OneStream</h3><p className="text-slate-600">Unify your corporate performance management in a single, extensible platform.</p></div>
+                    <img src="https://financialit.net/sites/default/files/os-logotm-horizontal-fc-cmyk_0.png" className="w-full h-48 object-contain p-4" alt="OneStream" /><div className="p-6"><h3 className="text-xl font-bold mb-2 text-slate-800">OneStream</h3><p className="text-slate-600">Unify your corporate performance management in a single, extensible platform.</p></div>
                 </div>
             </div>
         </div>
@@ -897,7 +900,7 @@ const ClientsPage = React.forwardRef((props, ref) => (
         <div className="container mx-auto px-6">
             <h2 className="text-4xl font-bold text-center mb-10"><TextGradient>Our Clients</TextGradient></h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-white p-8 rounded-lg shadow-md"><img src="https://play-lh.googleusercontent.com/yoB3_PGDvkNVvRRWYevVr73njuljvvZG6ZUA4WjMkW5hpgGll_gNwbuFIF6_PrQr9g" alt="Savvy Sliders Logo" className="h-40 mx-auto mb-4 object-contain" /><p className="text-slate-600 text-center">For Savvy Sliders, we are creating powerful Power BI dashboards and KPIs to drive data-informed decision-making.</p></div>
+                <div className="bg-white p-8 rounded-lg shadow-md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRblRotaMQ8wK_3gcpD4-GhGkr5LGnXOF1IAxR1kW3bbIb05IPHBvpXBg1gkQQxfMXi88U&usqp=CAU" alt="Savvy Sliders Logo" className="h-40 mx-auto mb-4 object-contain" /><p className="text-slate-600 text-center">For Savvy Sliders, we are creating powerful Power BI dashboards and KPIs to drive data-informed decision-making.</p></div>
                 <div className="bg-white p-8 rounded-lg shadow-md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDF7tDS5TDcnNme6OUcvIogYjQQhnbdRKv67_9kB0zI23x4ecGXurNlkUz6jdF15Tp7kM&usqp=CAU" alt="Burger Fi Logo" className="h-40 mx-auto mb-4 object-contain" /><p className="text-slate-600 text-center">For Burger Fi, we are creating powerful Power BI dashboards and KPIs to drive data-informed decision-making.</p></div>
             </div>
         </div>
@@ -905,65 +908,37 @@ const ClientsPage = React.forwardRef((props, ref) => (
 ));
 
 const PartnersPage = React.forwardRef((props, ref) => (
-   <AnimatedSection id="partners" ref={ref}>
-  <div className="container mx-auto px-6">
-    <h2 className="text-4xl font-bold text-center mb-10">
-      <TextGradient>Our Technology Partners</TextGradient>
-    </h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-      {/* Microsoft */}
-      <div className="bg-white p-8 rounded-lg shadow-md text-center">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png"
-          alt="Microsoft Logo"
-          className="h-20 mx-auto mb-4 object-contain"
-        />
-        <p className="text-slate-600">
-          As a Microsoft partner, we leverage Power BI and Azure to build powerful, scalable data analytics solutions for our clients, providing deep insights into their operations.
-        </p>
-      </div>
-
-      {/* Snowflake */}
-      <div className="bg-white p-8 rounded-lg shadow-md text-center">
-        <img
-          src="https://solutionsreview.com/data-management/files/2018/09/oie_1190H58e7ohK-768x384.jpg"
-          alt="Snowflake Logo"
-          className="h-20 mx-auto mb-4 object-contain"
-        />
-        <p className="text-slate-600">
-          Our amazing partners at Snowflake allow us to utilize their Data Cloud to centralize and process vast amounts of data, forming the backbone of our business intelligence services.
-        </p>
-      </div>
-
-      {/* PAR */}
-      <div className="bg-white p-8 rounded-lg shadow-md text-center">
-        <img
-          src="https://mma.prnewswire.com/media/2664714/PAR_Logo.jpg"
-          alt="PAR Logo"
-          className="h-20 mx-auto mb-4 object-contain"
-        />
-        <p className="text-slate-600">
-          We integrate with PAR's leading Point-of-Sale (POS) systems, ensuring seamless data flow from front-of-house transactions to back-end financial reporting.
-        </p>
-      </div>
-
-      {/* Sofo */}
-      <div className="bg-white p-8 rounded-lg shadow-md text-center">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw8cBe2RyC88pP5N-Fn0rOOcQ188T7DfCSTA&s"
-          alt="Sofo Logo"
-          className="h-20 mx-auto mb-4 object-contain"
-        />
-        <p className="text-slate-600">
-          We are excited to announce our partnership with Sofo, enabling us to leverage their innovative solutions to enhance our service offerings and deliver even more value to our clients.
-        </p>
-      </div>
-
-    </div>
-  </div>
-</AnimatedSection>
-
+    <AnimatedSection id="partners" ref={ref}>
+        <div className="container mx-auto px-6">
+            <h2 className="text-4xl font-bold text-center mb-10"><TextGradient>Our Technology Partners</TextGradient></h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="bg-white p-8 rounded-lg shadow-md text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png" alt="Microsoft Logo" className="h-20 mx-auto mb-4 object-contain" />
+                    <p className="text-slate-600">
+                        As a Microsoft partner, we leverage Power BI and Azure to build powerful, scalable data analytics solutions for our clients, providing deep insights into their operations.
+                    </p>
+                </div>
+                <div className="bg-white p-8 rounded-lg shadow-md text-center">
+                    <img src="https://solutionsreview.com/data-management/files/2018/09/oie_1190H58e7ohK-768x384.jpg" alt="Snowflake Logo" className="h-20 mx-auto mb-4 object-contain" />
+                    <p className="text-slate-600">
+                        Our amazing partners at Snowflake allow us to utilize their Data Cloud to centralize and process vast amounts of data, forming the backbone of our business intelligence services.
+                    </p>
+                </div>
+                <div className="bg-white p-8 rounded-lg shadow-md text-center">
+                    <img src="https://mma.prnewswire.com/media/2664714/PAR_Logo.jpg" alt="PAR Logo" className="h-20 mx-auto mb-4 object-contain" />
+                    <p className="text-slate-600">
+                        We integrate with PAR's leading Point-of-Sale (POS) systems, ensuring seamless data flow from front-of-house transactions to back-end financial reporting.
+                    </p>
+                </div>
+                <div className="bg-white p-8 rounded-lg shadow-md text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw8cBe2RyC88pP5N-Fn0rOOcQ188T7DfCSTA&s" alt="Sofo Logo" className="h-20 mx-auto mb-4 object-contain" />
+                    <p className="text-slate-600">
+                        Our partnership with Sofo enables us to leverage their innovative solutions to enhance our service offerings and deliver even more value to our clients.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </AnimatedSection>
 ));
 
 
