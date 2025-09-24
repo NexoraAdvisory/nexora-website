@@ -3,7 +3,7 @@ name: Deploy React App to GoDaddy
 on:
   push:
     branches:
-      - main  # deploys on push to main branch
+      - main  # deploy on push to main branch
 
 jobs:
   build-and-deploy:
@@ -27,9 +27,11 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: ftp.nexoraadvisory.com
+          username: nexoraftp@nexoraadvisory.com
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: build/        # must end with /
-          server-dir: public_html/ # must end with /
+          local-dir: build/
+          server-dir: public_html/
+          port: 21
+          protocol: ftp
           log-level: verbose
