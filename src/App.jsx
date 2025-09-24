@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Menu, X, Lightbulb, Settings, ClipboardCheck, Building2, Handshake, Bot, LineChart, PieChart, Laptop, ClipboardList, Headset, UtensilsCrossed, Warehouse, ArrowLeft, Users, Pizza, Coffee, Salad, Soup, BarChart3, Package, Smartphone, CheckCircle, Clock, FileText, DollarSign, BrainCircuit, TrendingUp, CreditCard, Puzzle, ShieldCheck, Gift, Link2, BellRing, Thermometer } from 'lucide-react';
+import { Menu, X, Lightbulb, Settings, ClipboardCheck, Building2, Handshake, Bot, LineChart, PieChart, Laptop, ClipboardList, Headset, Warehouse, ArrowLeft, BarChart3, Smartphone, CheckCircle, Clock, FileText, DollarSign, BrainCircuit, TrendingUp, Puzzle, ShieldCheck, Link2, BellRing, Thermometer } from 'lucide-react';
 import logoImage from './assets/logo.png'; 
 
-// --- ASSET PLACEHOLDERS ---
-// In a real app, you would import these from your assets folder.
+// Logo usage
 <img src={logoImage} alt="Nexora Logo" className="h-12" />
-const Tech1 = 'https://images.unsplash.com/photo-1634655610309-b4b1a2c9c8e8?q=80&w=2070&auto-format&fit=crop';
-const Tech3 = 'https://images.unsplash.com/photo-1581092921440-41f49635e06b?q=80&w=2070&auto-format&fit=crop';
-const Tech5 = 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto-format&fit=crop';
-// --- END ASSET PLACEHOLDERS ---
+
+// Remove unused Tech variables for now
+// const Tech1 = '...';
+// const Tech3 = '...';
+// const Tech5 = '...';
 
 
 // Main App Component
