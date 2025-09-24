@@ -905,31 +905,65 @@ const ClientsPage = React.forwardRef((props, ref) => (
 ));
 
 const PartnersPage = React.forwardRef((props, ref) => (
-    <AnimatedSection id="partners" ref={ref}>
-        <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-bold text-center mb-10"><TextGradient>Our Technology Partners</TextGradient></h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png" alt="Microsoft Logo" className="h-20 mx-auto mb-4 object-contain" />
-                    <p className="text-slate-600">
-                        As a Microsoft partner, we leverage Power BI and Azure to build powerful, scalable data analytics solutions for our clients, providing deep insights into their operations.
-                    </p>
-                </div>
-                <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                    <img src="https://solutionsreview.com/data-management/files/2018/09/oie_1190H58e7ohK-768x384.jpg" alt="Snowflake Logo" className="h-20 mx-auto mb-4 object-contain" />
-                    <p className="text-slate-600">
-                        Our amazing partners at Snowflake allow us to utilize their Data Cloud to centralize and process vast amounts of data, forming the backbone of our business intelligence services.
-                    </p>
-                </div>
-                <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                    <img src="https://mma.prnewswire.com/media/2664714/PAR_Logo.jpg" alt="PAR Logo" className="h-20 mx-auto mb-4 object-contain" />
-                    <p className="text-slate-600">
-                        We integrate with PAR's leading Point-of-Sale (POS) systems, ensuring seamless data flow from front-of-house transactions to back-end financial reporting.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </AnimatedSection>
+   <AnimatedSection id="partners" ref={ref}>
+  <div className="container mx-auto px-6">
+    <h2 className="text-4xl font-bold text-center mb-10">
+      <TextGradient>Our Technology Partners</TextGradient>
+    </h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      {/* Microsoft */}
+      <div className="bg-white p-8 rounded-lg shadow-md text-center">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png"
+          alt="Microsoft Logo"
+          className="h-20 mx-auto mb-4 object-contain"
+        />
+        <p className="text-slate-600">
+          As a Microsoft partner, we leverage Power BI and Azure to build powerful, scalable data analytics solutions for our clients, providing deep insights into their operations.
+        </p>
+      </div>
+
+      {/* Snowflake */}
+      <div className="bg-white p-8 rounded-lg shadow-md text-center">
+        <img
+          src="https://solutionsreview.com/data-management/files/2018/09/oie_1190H58e7ohK-768x384.jpg"
+          alt="Snowflake Logo"
+          className="h-20 mx-auto mb-4 object-contain"
+        />
+        <p className="text-slate-600">
+          Our amazing partners at Snowflake allow us to utilize their Data Cloud to centralize and process vast amounts of data, forming the backbone of our business intelligence services.
+        </p>
+      </div>
+
+      {/* PAR */}
+      <div className="bg-white p-8 rounded-lg shadow-md text-center">
+        <img
+          src="https://mma.prnewswire.com/media/2664714/PAR_Logo.jpg"
+          alt="PAR Logo"
+          className="h-20 mx-auto mb-4 object-contain"
+        />
+        <p className="text-slate-600">
+          We integrate with PAR's leading Point-of-Sale (POS) systems, ensuring seamless data flow from front-of-house transactions to back-end financial reporting.
+        </p>
+      </div>
+
+      {/* Sofo */}
+      <div className="bg-white p-8 rounded-lg shadow-md text-center">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw8cBe2RyC88pP5N-Fn0rOOcQ188T7DfCSTA&s"
+          alt="Sofo Logo"
+          className="h-20 mx-auto mb-4 object-contain"
+        />
+        <p className="text-slate-600">
+          We are excited to announce our partnership with Sofo, enabling us to leverage their innovative solutions to enhance our service offerings and deliver even more value to our clients.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</AnimatedSection>
+
 ));
 
 
