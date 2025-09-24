@@ -32,4 +32,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: build
           server-dir: ${{ secrets.FTP_PATH }}
-          log-level: standard  # <-- corrected value
+          log-level: verbose  # <-- updated to a valid value
