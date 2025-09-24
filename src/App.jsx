@@ -897,7 +897,7 @@ const ClientsPage = React.forwardRef((props, ref) => (
         <div className="container mx-auto px-6">
             <h2 className="text-4xl font-bold text-center mb-10"><TextGradient>Our Clients</TextGradient></h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-white p-8 rounded-lg shadow-md"><img src="https://www.provisioneronline.com/ext/resources/2023/06/25/Savvy-Sliders-logo.png?1687719579" alt="Savvy Sliders Logo" className="h-40 mx-auto mb-4 object-contain" /><p className="text-slate-600 text-center">For Savvy Sliders, we are creating powerful Power BI dashboards and KPIs to drive data-informed decision-making.</p></div>
+                <div className="bg-white p-8 rounded-lg shadow-md"><img src="https://play-lh.googleusercontent.com/yoB3_PGDvkNVvRRWYevVr73njuljvvZG6ZUA4WjMkW5hpgGll_gNwbuFIF6_PrQr9g" alt="Savvy Sliders Logo" className="h-40 mx-auto mb-4 object-contain" /><p className="text-slate-600 text-center">For Savvy Sliders, we are creating powerful Power BI dashboards and KPIs to drive data-informed decision-making.</p></div>
                 <div className="bg-white p-8 rounded-lg shadow-md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDF7tDS5TDcnNme6OUcvIogYjQQhnbdRKv67_9kB0zI23x4ecGXurNlkUz6jdF15Tp7kM&usqp=CAU" alt="Burger Fi Logo" className="h-40 mx-auto mb-4 object-contain" /><p className="text-slate-600 text-center">For Burger Fi, we are creating powerful Power BI dashboards and KPIs to drive data-informed decision-making.</p></div>
             </div>
         </div>
