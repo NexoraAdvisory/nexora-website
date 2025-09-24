@@ -30,6 +30,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: build/       # <-- note the trailing slash
-          server-dir: ${{ secrets.FTP_PATH }}
+          local-dir: build/         # must end with /
+          server-dir: ${{ secrets.FTP_PATH }}  # must end with /
           log-level: verbose
